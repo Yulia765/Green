@@ -1,0 +1,442 @@
+body {
+  margin: 0;
+  background: #BDC3C7;
+  font-family: 'Lato', sans-serif;
+}
+
+.wrapper {
+  width: 940px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*------------------------------------*\
+    #SECTION-HEADER
+\*------------------------------------*/
+
+.navigetion a:hover {
+  color: #264734;
+}
+
+.navigetion li .bl {
+  color: #264734;
+}
+
+.navigetion a:active {
+  color: #264734;
+}
+
+.header {
+  color: #f9f9f9;
+  overflow: hidden;
+  background: #27ae60;
+
+}
+
+.logo {
+  float: left;
+  width: 194px; 
+  height: 40px;
+  margin-left: 60px;
+  padding-top: 21px;
+}
+
+.navigetion {
+  padding: 0;
+  float: right;
+  margin: 36px 58px 0 0;
+}
+
+.navigetion li{
+  display: inline-block;
+}
+
+.navigetion li a {
+  color: #f9f9f9;
+  font-size: 14px;
+  font-weight: 100;
+  padding-left: 18px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+  padding: 185px 0 60px;
+  text-transform: uppercase;
+}
+
+h1 span{
+  font-weight: 100;
+}
+
+.header .but {
+  width: 234px;
+  color: #f9f9f9;
+  display: block;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 45px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-radius: 8px;
+  background: #2ECC71;
+  margin-bottom: 80px;
+}
+
+.but:hover,.but-two input:hover {
+  color: #27AE60;
+  background: #B2DFC5;
+}
+
+/*------------------------------------*\
+    #SECTION-CONTENT
+\*------------------------------------*/
+
+.content {
+  padding: 69px 0;
+  text-align: center;
+  background: #ECF0F1;
+}
+
+.contener {
+  width: 843px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tx1,
+.tx1-two {
+  margin: 0;
+  color: #444444;
+  font-size: 25px;
+}
+
+.tx1 {
+  padding-bottom: 18px;
+}
+
+.bg {
+  height: 14px;
+  background: url(../images/lgn.gif) no-repeat center;
+}
+
+.tx2 {
+  margin: 0;
+  color: #4F4F50;
+  font-size: 12px;
+  padding: 20px 230px;
+}
+
+h2,.par {
+  color: #7F8C8D;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.par {
+  margin-top: 90px; 
+}
+
+.home, 
+.home-index {
+  padding: 9px 10px;
+}
+
+.home-index {
+  float: left;
+  width: 401px;
+  height: 230px;
+}
+
+.but1 {
+  color: #7E8C99;
+  font-size: 13px;
+  padding: 9px 78px;
+  border-radius: 8px;
+  line-height: 130px;
+  background: #ECF0F1;
+  border: 2px solid #989A9A;
+}
+
+.but1:hover,.but-map input:hover {
+  color: #ECF0F1;
+  background: #989A9A;
+}
+
+.logo2 img {
+  vertical-align: top;
+} 
+
+.logo2 {
+  margin: 0;
+  padding-top: 30px;
+}
+
+.logo2  li {
+  margin: 0 37px;
+  display: inline-block;
+}
+
+.logo2 li:first-child {
+  margin: 0 40px 0 0;
+}
+
+/*------------------------------------*\
+    #SECTION-FOOTER
+\*------------------------------------*/
+
+.footer {
+  clear: both;
+  height: 88px;
+  color: #B1B1B1;
+  overflow: hidden;
+  font-weight: 100;
+  background: #444444;
+}
+
+.icons li {
+  float: left;
+  font-size: 10px;
+  border-spacing: 9px;
+  list-style-type: none;
+  padding: 24px 0 0 7px; 
+}
+
+.icons li a {
+  padding: 2px;
+  color: #BBBBBB;
+  word-spacing: 8px;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 13px;
+  text-align: right;
+  padding: 21px 59px;
+}
+
+/*------------------------------------*\
+    #SECTION-ABOUT
+\*------------------------------------*/
+
+.tx-two {
+  font-size: 30px;
+}	
+
+.tx1-two {
+  padding-bottom: 39px;
+}
+
+.tx2-two {
+  color: #444;
+  padding: 60px 0 36px;
+}
+
+.tx3 {
+  width: 610px;
+  color: #7C7D7E;
+  font-size: 14px;
+  text-align: left;
+  font-weight: 100;
+  padding-top: 27px;
+  white-space: pre-wrap;
+  margin: 13px 0 0 108px;
+}
+
+/*------------------------------------*\
+    #SECTION-TOOLS
+\*------------------------------------*/
+
+.tools-row {
+  text-align: center;
+  padding-bottom: 35px;
+}
+
+.tool-item {
+  width: 133px;
+  height: 133px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.tool-item + .tool-item {
+  margin-left: 20px;
+}
+
+.tool-description {
+  left: 0;
+  top: 133px;
+  width: 113px;
+  line-height: 113px;
+  border-radius: 50%;
+  border: 10px solid rgba(39,174,97,.8);
+}
+
+.tool-item:hover .tool-description {
+  top: 0;
+}
+
+.but-two a{
+  width: 140px; 
+  height: 26px;
+  color: #f9f9f9;
+  border: #2ECC71;
+  font-size: 13px;
+  border-radius: 8px;
+  background: #2ECC71;
+  padding: 5px 32px;
+}
+
+.but-two {
+  padding-top: 53px;
+}
+
+/*------------------------------------*\
+    #SECTION-PORTFOLIO
+\*------------------------------------*/
+
+
+.home img {
+  width: 321px;
+  height: 212px;
+}
+
+.home,
+.tool-item {
+  position: relative;
+  display: inline-block;
+}
+
+.description {
+  top: 39px;
+  left: 39px;
+  opacity: 0;
+  width: 260px;
+  line-height: 153px;
+}
+
+.description,
+.tool-description {
+  color: #fff;
+  position: absolute;
+  transition: all 0.5s ease-in-out;
+  background-color: rgba(149,165,166,.8);
+}
+
+.description span {	
+  border-bottom: 1px solid #fff;
+}
+
+.home:hover .description {
+  opacity: 1;
+}
+
+/*------------------------------------*\
+    #SECTION-CONTACT
+\*------------------------------------*/
+
+.content-map {
+  width: 940px;
+  text-align: center;
+  background: #ECF0F1;
+  padding: 74px 0 305px;
+} 
+
+#map {
+  width: 623px;
+  height: 296px;
+  margin: 0 auto 60px;
+}
+
+.gm-style-iw * {
+  width: 100%;
+  display: block;
+}
+
+.gm-style-iw p, 
+.gm-style-iw h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.gm-style-iw a {
+  color: #4272db;
+}
+
+.tx1-map h2{
+  margin: 0;
+  color: #444444;	
+  font-size: 25px;
+  font-weight: normal;
+  padding: 0 160px 40px;
+}
+
+.tx1-map p{
+  color: #7e7f80;
+  padding: 0 110px;
+  font-weight: 100;
+  text-align: justify;
+}
+
+.sidebarL {
+  float: left;
+  padding: 55px 15px 0 110px;
+}
+
+.form input, textarea {
+  width: 422px;
+  resize: none; /* Запрещаем изменять размер */
+  color: #A2A2A2;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 41px;
+  padding-left: 13px;
+  margin-bottom: 13px;
+  background: #ECF0F1;
+  border: 1px solid #C6C8C9;
+  font-family: 'Lato', sans-serif; /*не наследует от body?*/
+}
+
+.but-map input {
+  height: 23px;
+  width: 119px; 
+  color: #f9f9f9;
+  font-size: 10px;
+  border: #95A5A6;
+  border-radius: 3px;
+  background: #95A5A6;
+}
+
+.but-map {
+  text-align: left;
+  margin-left: 3px; 
+}
+
+
+.sidebarR {
+  padding-top: 35px;
+  text-align: justify;
+
+}
+
+.sidebarR h3{
+  color: #717272;
+  font-size: 17px;
+  font-weight: 400;
+  margin-bottom: 5px;  
+}
+
+.sidebarR p {
+  width: 130px;
+  color: #717272;
+  font-size: 14px;
+  font-weight: 300;
+  display: inline-block;
+  padding-bottom: 125px;
+}
